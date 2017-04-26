@@ -1,0 +1,11 @@
+{
+    "ace": {
+        "ep-button": "<span class=\"label\">{{options.templateOptions.label}}</span><input type=\"text\" name=\"\" class=\"form-control\" value=\"\" ng-required=options.templateOptions.req required=\"required\" pattern=\"\" title=\"\">"
+    },
+    "ml": {
+        "ep-button": "<md-input-container><label>{{options.templateOptions.label}}</label><input type=\"text\" ng-model=\"model[options.key]\" ng-required=options.templateOptions.req ng-minlength={{options.templateOptions.minlength}} ng-maxlength={{options.templateOptions.maxlength}}></md-input-container>"
+    },
+    "custom": {
+        "ep-button": "<edit-button></edit-button>"
+    }
+}
