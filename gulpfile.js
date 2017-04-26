@@ -36,7 +36,7 @@ gulp.task('serve', ['nodemon-setup'], function () {
         proxy: "http://localhost:5000",
         files: ["src/**/*.*"],
         browser: "google chrome",
-        port: 7000,
+        port: 7001,
     });
 });
 
